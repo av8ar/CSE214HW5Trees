@@ -6,10 +6,10 @@
 A single main method which allows a user to interact with a file system implemented by an instance of DirectoryTree using the following commands
   (note that commands are case-sensitive and will always be lower-case):
  
- Command	| Description
- =============================================================================
+ |Command	| Description
+ |========|=====================================================================|
   pwd	  |  Print the "present working directory" of the cursor node
-           (e.g root/home/user/Documents).
+           (e.g root/home/user/Documents). |
   ls	  |  List the names of all the child directories or files of the cursor.
   ls -R |	Recursive traversal of the directory tree. Prints the entire tree
            starting from the cursor in pre-order traversal.
